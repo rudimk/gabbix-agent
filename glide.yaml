@@ -1,2 +1,6 @@
 package: .
-import: []
+import:
+- package: github.com/shirou/gopsutil
+  version: v2.17.06
+- package: github.com/gin-gonic/gin
+  version: v1.2
